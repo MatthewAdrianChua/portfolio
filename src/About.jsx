@@ -35,7 +35,7 @@ function About({setCurrentPage}){
 
                 </div>
                 <div id="credentialContainer">
-                    <h1 className="aboutHeader">CHUA, MATTHEW ADIAN U.</h1>
+                    <h1 className="aboutHeader">CHUA, MATTHEW ADRIAN U.</h1>
                     <hr></hr>
                     <p>I am a fourth-year computer science student looking to expand my knowledge and experience in the technological field through an on-the-job training program where I can apply the skills I have gained throughout the years in my undergraduate program. I aim to contribute to a dynamic team environment through coding, debugging, cybersecurity risk analysis, and problem-solving to develop robust and efficient software programs.</p>
                     <div id="firstRowCredentials">
