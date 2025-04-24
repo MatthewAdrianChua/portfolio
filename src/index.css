@@ -395,6 +395,7 @@ body{
   font-weight: 700;
   background-color: #020A0E;
   color: #e2e2e2;
+  border: none;
 }
 
 .projectGithub{
@@ -404,6 +405,7 @@ body{
   font-weight: 700;
   background-color: #020A0E;
   color: #e2e2e2;
+  border: none;
 }
 
 .projectWebsite:hover{
