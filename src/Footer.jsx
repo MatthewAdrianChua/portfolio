@@ -7,7 +7,7 @@ function Footer(){
                 <h5 id="footerCV" onClick={() => window.open("https://drive.google.com/file/d/1r8ID-Q_JGlnuR1BFxSAOf-2ytXRrbg2K/view?usp=sharing", "_blank")}>CV</h5>
             </div>
             <p id="footerText">{new Date().getFullYear()} Matthew Adrian Chua</p>
-            <p> Made in ReactJS </p>
+            <p id="madeIn"> Made in ReactJS </p>
         </footer>
     );
 }

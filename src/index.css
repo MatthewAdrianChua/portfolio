@@ -27,61 +27,67 @@ body{
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 50vh 0 50vh white;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 3.5vw;
+  padding-left: 2vw;
 }
 
 #footerText{
   font-weight: 500;
+  font-size: 1vw;
+  width: 20%;
 }
 
 #footerIcons{
   display: flex;
   justify-content: space-between;
-  width: 200px;
+  width: 15%;
 }
 
 .footerIcon{
-  height: 50px;
-  width: 50px;
+  height: 23%;
+  width: 23%;
   cursor: pointer;
+  margin: 1rem;
 }
 
 #footerCV{
   font-weight: 1000;
-  font-size: 35px;
-  height: 50px;
-  width: 5px;
+  font-size: 2.5vw;
+  height: 23%;
+  width: 23%;
   padding: 0px;
-  margin: 0px;
+  margin: 1rem;
   cursor: pointer;
+}
+
+#madeIn{
+  font-size: 1vw;
 }
 
 /*------------------------------------------*/
 
 #matthew{
-  margin-left: 50px;
+  margin-left: 3rem;
   font-weight: 700;
   color: white;
-  font-size: 25px;
+  font-size: 1.5vw;
   cursor: pointer;
 }
 
 #navBar{
   list-style-type: none;
-  margin-right: 60px;
-  padding: 5px;
+  margin-right: 0;
+  padding: 1rem;
   overflow: hidden;
   display: flex;
   justify-content: space-between;
+  width: 90%;
 }
 
 .navLinks{
-  margin-left: 30px;
-  margin-right: 30px;
-  padding-left: 40px;
-  padding-right: 40px;
-  height: 25px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  height: 1.5vw;
   border-radius: 12px;
   background-color: #020A0E;
   color: white;
@@ -89,7 +95,9 @@ body{
   border: none;
   cursor: pointer;
   text-decoration: none;
-  width: 165px;
+  width: 10vw;
+  font-size: .7vw;
+  align-items: center;
 }
 
 .navLinks:hover{
@@ -117,38 +125,43 @@ body{
 
 #activeContact{
   text-decoration: underline;
-  margin-right: 50px;
   background-color: #BD7418;
   color: white;
   font-weight: 1000;
-  width: 165px;
+  width: 10vw;
+  font-size: .7vw;
+  margin-right: 2vw;
 }
 
 #contact{
-  margin-right: 50px;
+  margin-right: 2vw;
   background-color: #677189;
   color: white;
-  width: 165px;
+  width: 10vw;
+  font-size: .7vw;
+  align-items: center;
 }
 
 #contact:hover{
   background-color: #BD7418;
   color: white;
+  align-items: center;
 }
 
 /*------------------------------------------*/
 
 #mainContainer{
-  margin: 50px;
+  margin: 5rem;
   display: flex;
   justify-content:center;
-  height: 700px;
+  height: 100%;
 }
 
 #mainTextContainer{
   color: white;
-  margin-right: 270px;
-  margin-top: 150px;
+  margin-right: 10rem;
+  margin-top: 9rem;
+  width: 40%;
 }
 
 #name{
@@ -156,10 +169,11 @@ body{
 }
 
 #profilePic{
-  height: 600px;
-  width: 550px;
+  height: 25%;
+  width: 25%;
   border-radius: 50%;
   margin-top: 30px;
+  align-self: center;
 }
 
 .landingPageButton{
@@ -170,6 +184,7 @@ body{
   margin: 15px;
   font-weight: 600;
   border: none;
+  font-size: 1.2vw;
 }
 
 #resumeButton{
@@ -209,26 +224,26 @@ body{
   flex-direction: column;
   background-color: #020A0E;
   border-right: solid #020A0E;
-  min-width: 250px;
+  width: 17%;
 }
 
 #verticalLineAbout{
-  margin-left: 50px;
+  margin-left: 2rem;
   margin-top: 50px;
   margin-bottom: 50px;
-  border-right: 6px solid #e2e2e2;
+  border-right: .5vw solid #e2e2e2;
 }
 
 #aboutPic{
-  height: 270px;
-  width: 200px;
+  height:25%;
+  width: 70%;
   border-radius: 12px;
   margin-top: 30px;
-  margin-left: 25px;
+  align-self: center;
 }
 
 .contactHeader{
-  margin-left: 90px;
+  align-self: center;
 }
 
 .horizontalLineProfile{
@@ -242,23 +257,29 @@ body{
   margin-right: 10px;
 }
 
+.contactInfo{
+  font-size: .7vw;
+  align-self: center;
+}
+
 .icon{
-  height: 25px;
-  margin-top: 15px;
+  height: 35%;
+  width: 12%;
+  align-self: center;
 }
 
 .contactButtons{
   border-radius: 12px;
   height: 30px;
-  width: 150px;
+  width: 50%;
   border: none;
   font-weight: 700;
-  font-size: 15px;
-  margin-left: 50px;
+  font-size: .8vw;
   margin-top: 10px;
   cursor: pointer;
   background-color: #677189;
   color: #e2e2e2;
+  align-self: center;
 }
 
 .contactButtons:hover{
@@ -278,16 +299,18 @@ body{
 }
 
 #credentialContainer{
-  margin-left: 100px;
-  padding-right: 150px;
+  margin-left: 6vw;
+  padding-right: 7vw;
   padding-bottom: 100px;
   padding-top: 50px;
   color: #e2e2e2;
+  width: 80%;
 }
 
 .aboutHeader{
   color: #BD7418;
   font-weight: 1000;
+  font-size: 1.5vw;
 }
 
 #firstRowCredentials{
@@ -297,9 +320,11 @@ body{
 }
 
 #verticalLineCredential{
-  border-left: 6px solid #e2e2e2;
+  border-left: .5vw solid #e2e2e2;
   margin-top: 5px;
-  margin-bottom: 5px
+  margin-bottom: 5px;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 
 #secondRowCredentials{
@@ -310,6 +335,7 @@ body{
 #certifications{
   margin-top: 100px;
   max-width: 436px;
+  margin-right: 5rem;
 }
 
 #myProjects{
@@ -318,19 +344,20 @@ body{
   right: 0;
   height: 250px;
   width: 750px;
-  font-size: 60px;
+  font-size: 2.5vw;
   display: flex;
   justify-content: end;
   align-items: end;
   font-weight: 300;
   margin-right: 25px;
+  margin-left: 5rem;
   cursor:pointer ;
 }
 
 /*------------------------------------------*/
 .projectsHorizontalLine{
   border-top: 3px solid #e2e2e2;
-  margin: 50px;
+  margin: 2.5vw;
 }
 
 #projectsMainContainer{
@@ -341,33 +368,34 @@ body{
 
 .project{
   display: flex;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 7vw;
+  margin-right: 7vw;
 }
 
 .projectContainerLeft{
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .projectTitle{
   font-weight: 1000;
   color: #BD7418;
+  font-size: 1.5vw;
 }
 
 .keywords{
   font-weight: 1000;
-  font-size: 15px;
+  font-size: .9vw;
   color: #e2e2e2;
 }
 
 .projectImage{
-  height: 300px;
-  width: 550px
+  height: 60%;
+  width: 90%;
 }
 
 .projectsVerticalLine{
-  margin-left: 50px;
   border-left: 3px solid #020A0E;
 }
 
@@ -377,10 +405,16 @@ body{
   margin-top: 20px;
   margin-left: 30px;
   justify-content: space-around;
+  width: 140%;
 }
 
 .projectDescription{
   color: #e2e2e2;
+  font-size: .9vw;
+}
+
+.projectDescriptionText{
+  font-size: .8vw;
 }
 
 .projectButtons{
@@ -388,27 +422,33 @@ body{
   justify-content: space-around;
   align-items: center;
   margin-top: 20px;
+  width: 100%;
+  align-self: center;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 
 .projectWebsite{
   border-radius: 12px;
-  height: 40px;
-  width: 200px;
+  height: 2.5vw;
+  width: 25%;
   border: none;
   font-weight: 700;
   background-color: #020A0E;
   color: #e2e2e2;
   border: none;
+  font-size: .8vw;
 }
 
 .projectGithub{
   border-radius: 12px;
-  height: 40px;
-  width: 200px;
+  height: 2.5vw;
+  width: 25%;
   font-weight: 700;
   background-color: #020A0E;
   color: #e2e2e2;
   border: none;
+  font-size: .8vw;
 }
 
 .projectWebsite:hover{
@@ -422,13 +462,14 @@ body{
 }
 
 #analyze{
-  height: 400px;
+  height: 80%;
+
 }
 
 /*------------------------------------------*/
 
 #contactMainContainer{
-  min-height: 750px;
+  min-height: 45vw;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -438,14 +479,14 @@ body{
 
 #contactFirstLine{
   color: #020A0E;
-  font-size: 45px;
+  font-size: 2.5vw;
 }
 
 #contactButton{
   border-radius: 12px;
-  height: 80px;
-  width: 220px;
-  font-size: 45px;
+  height: 100%;
+  width: 12%;
+  font-size: 2.5vw;
   background: transparent;
   border: none;
   color: #BD7418;
@@ -458,11 +499,11 @@ body{
 }
 
 #contactEmail{
-  height: 80px;
-  font-size: 45px;
+  height: 100%;
+  font-size: 2.5vw;
   background: transparent;
   border: none;
-  width: 970px;
+  width: 64%;
   color: #e2e2e2;
   font-weight: 1000;
   cursor: pointer;
@@ -474,7 +515,7 @@ body{
 }
 
 #contactSecondLine{
-  font-size: 35px;
+  font-size: 2vw;
 }
 
 
@@ -482,6 +523,7 @@ body{
   opacity: 0;
   transition: opacity 0.5s ease;
   color: #e2e2e2;
+  font-size: 1.4vw;
 }
 
 #notification.visible{
